@@ -1,0 +1,42 @@
+/* style.css */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('background-image.jpg'); /* Lisää haluamasi kuvan tiedostonimi */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #080808;
+}
+
+header {
+    background-image: url('header-image.jpg');
+    background-size: cover; /* Kattaa koko headerin koon */
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 1em 0;
+}
+
+section {
+    background-color:rgb(250, 236, 210);
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #333;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+/* Lisää tarvittaessa muita tyylisääntöjä */
